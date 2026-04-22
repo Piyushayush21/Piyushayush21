@@ -1,16 +1,27 @@
-## Hi there 👋
+Hi 👋, I'm Piyush Ayush
 
-<!--
-**Piyushayush21/Piyushayush21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m a Data Science enthusiast diving deep into Python, Machine Learning, and Deep Learning.  
+Currently doing my BCA from IGNOU and loving the journey of turning data into insights!
 
-Here are some ideas to get you started:
+About Me
+I enjoy exploring real-world datasets and building models that actually solve problems.  
+I’m passionate about Python, data analysis, and making sense of numbers to tell meaningful stories.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+Skills
+- Programming & Scripting: Python, R, SQL  
+- Data Analysis & Visualization: Pandas, NumPy, Matplotlib, Seaborn, Plotly  
+- Machine Learning: Scikit-learn, XGBoost, LightGBM  
+- Deep Learning: TensorFlow, Keras, PyTorch  
+- Data Wrangling & Big Data: Handling messy datasets, ETL, SQL  
+- Tools I Use: Jupyter Notebook, Google Colab, Git, GitHub
+
+What I’m Learning
+- Advanced Deep Learning (CNNs, RNNs, Transformers)  
+- Reinforcement Learning & AI applications  
+- How to deploy ML models in real-world projects
+
+Let’s Connect
+I’m open to collaborations, learning from others, and taking on interesting Data Science challenges
+
+
 -->
