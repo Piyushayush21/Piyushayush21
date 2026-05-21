@@ -4,8 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=feb47b&center=true&vCenter=true&width=800&height=60&lines=Python+%7C+SQL+%7C+Power+BI+%7C+Tableau)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demoab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=ff416c&center=true&vCenter=true&multiline=false&width=600&lines=Aspiring+Data+Analyst+%26+Data+Scientist;BCA+Student+%40+IGNOU;Turning+Raw+Data+into+Actionable+Insights;Math+%2B+Statistics+%3D+Power+of+Data!)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=ff416c&center=true&vCenter=true&multiline=false&width=600&lines=Aspiring+Data+Analyst+%26+Data+Scientist;BCA+Student+%40+IGNOU;Turning+Raw+Data+into+Actionable+Insights;Math+%2B+Statistics+%3D+Power+of+Data!)](https://git.io/typing-svg)
 [![Profile Views](https://komarev.com/ghpvc/?username=Piyushayush21&color=00b4d8&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Piyushayush21)
 [![GitHub followers](https://img.shields.io/github/followers/Piyushayush21?style=for-the-badge&color=00b4d8&labelColor=0d1117)](https://github.com/Piyushayush21)
 
@@ -18,15 +17,13 @@
 ```python
 Piyush = {
     "Name"        : "Piyush Ayush",
-    "GitHub"      : "Piyushayush21",
     "Location"    : "India 🇮🇳",
-    "Education"   : ["BCA (Pursuing) - IGNOU"],
+    "Education"   : ["BCA (Pursuing)"],
     "Role"        : "Aspiring Data Analyst & Data Scientist",
     "Skills"      : ["Python", "SQL", "Excel", "Power BI", "Tableau"],
     "Interests"   : ["Data Analysis", "EDA", "Data Visualization",
                      "Machine Learning", "Statistics"],
     "Looking_for" : "Entry-level Data Analyst / Data Scientist roles 🚀",
-    "Fun_fact"    : "I turn messy data into meaningful stories! 📊"
 }
 ```
 
