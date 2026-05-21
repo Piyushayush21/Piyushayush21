@@ -97,13 +97,7 @@ Piyush = {
 <div align="center">
 
 
-      
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+ 
 </div>
 
 ---
