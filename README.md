@@ -32,7 +32,7 @@ Piyush = {
 
 ---
 
-## 🛠️ Tech Stack & Tools
+<div align="center"> ## 🛠️ Tech Stack & Tools
 
 ### 💻 Languages
 
