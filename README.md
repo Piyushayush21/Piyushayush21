@@ -96,8 +96,30 @@ Piyush = {
 
 <div align="center">
 
-![github-snake](https://raw.githubusercontent.com/Piyushayush21/Piyushayush21/output/github-contribution-grid-snake-dark.svg)
+name: Generate Snake Animation
 
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs every day at midnight
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Piyushayush21
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 </div>
 
 ---
