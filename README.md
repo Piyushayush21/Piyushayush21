@@ -23,7 +23,7 @@ Piyush = {
     "Role"        : "Aspiring Data Analyst & Data Scientist",
     "Skills"      : ["Python", "SQL", "Excel", "Power BI", "Tableau"],
     "Interests"   : ["Data Analysis", "EDA", "Data Visualization",
-                     "Machine Learning", "Statistics"],
+                     "Machine Learning", "Deep Learning", "Gen AI", "Statistics"],
     "Looking_for" : "Entry-level Data Analyst / Data Scientist roles 🚀"
 }
 ```
