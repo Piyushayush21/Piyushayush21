@@ -21,37 +21,30 @@
   <rect width="1000" height="280" rx="16" fill="url(#grid)"/>
   <ellipse cx="500" cy="150" rx="380" ry="110" fill="url(#glow)"/>
 
-  <!-- terminal window chrome -->
   <circle cx="30" cy="30" r="6" fill="#ff5f56" opacity="0.55"/>
   <circle cx="50" cy="30" r="6" fill="#ffbd2e" opacity="0.55"/>
   <circle cx="70" cy="30" r="6" fill="#27c93f" opacity="0.55"/>
   <text x="90" y="35" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#556072">piyush@github:~$</text>
 
-  <!-- corner brackets -->
   <path d="M 20 60 L 20 45 L 35 45" fill="none" stroke="#00E5FF" stroke-opacity="0.4" stroke-width="2"/>
   <path d="M 980 60 L 980 45 L 965 45" fill="none" stroke="#00E5FF" stroke-opacity="0.4" stroke-width="2"/>
   <path d="M 20 220 L 20 235 L 35 235" fill="none" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="2"/>
   <path d="M 980 220 L 980 235 L 965 235" fill="none" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="2"/>
 
-  <!-- name -->
   <text x="500" y="158" font-family="JetBrains Mono, Consolas, monospace" font-size="60" font-weight="700"
         fill="url(#textGrad)" text-anchor="middle" letter-spacing="4">PIYUSH AYUSH</text>
 
-  <!-- subtitle -->
   <text x="500" y="196" font-family="JetBrains Mono, Consolas, monospace" font-size="16" fill="#8b95a8"
-        text-anchor="middle" letter-spacing="1">DATA ANALYST &#183; PYTHON &#183; SQL &#183; BCA '26</text>
+        text-anchor="middle" letter-spacing="1">DATA SCIENTIST &#183; DATA ANALYST &#183; PYTHON &#183; SQL</text>
 
-  <!-- blinking cursor -->
   <rect x="700" y="183" width="10" height="18" fill="#00E5FF">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- scanline sweep -->
   <rect x="0" y="0" width="1000" height="1.5" fill="#00E5FF" opacity="0.4">
     <animate attributeName="y" values="0;278;0" dur="9s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- baseline status text -->
   <text x="500" y="248" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#3d4657"
-        text-anchor="middle">status: open to data analyst / data scientist roles</text>
+        text-anchor="middle">status: open to data scientist / data analyst roles</text>
 </svg>
