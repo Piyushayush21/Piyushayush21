@@ -1,0 +1,84 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .node-label { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 13px; fill: #cdd6e4; }
+      .ring { fill: none; stroke: #ffffff; stroke-opacity: 0.08; stroke-dasharray: 3 6; }
+      .spoke { stroke: #7C3AED; stroke-opacity: 0.18; stroke-width: 1; }
+      .node-dot { fill: #05070d; stroke: #00E5FF; stroke-width: 1.6; }
+    </style>
+  </defs>
+
+  <circle cx="300" cy="300" r="250" fill="url(#centerGlow)"/>
+  <circle cx="300" cy="300" r="150" class="ring"/>
+  <circle cx="300" cy="300" r="250" class="ring"/>
+
+  <!-- center node -->
+  <circle cx="300" cy="300" r="52" fill="#05070d" stroke="#00E5FF" stroke-width="2"/>
+  <text x="300" y="296" text-anchor="middle" class="node-label" font-size="15" font-weight="700" fill="#00E5FF">STACK</text>
+  <text x="300" y="313" text-anchor="middle" class="node-label" font-size="10" fill="#556072">core.py</text>
+
+  <!-- inner ring: 6 nodes, static -->
+  <g>
+    <line x1="300" y1="300" x2="300" y2="150" class="spoke"/>
+    <line x1="300" y1="300" x2="430" y2="225" class="spoke"/>
+    <line x1="300" y1="300" x2="430" y2="375" class="spoke"/>
+    <line x1="300" y1="300" x2="300" y2="450" class="spoke"/>
+    <line x1="300" y1="300" x2="170" y2="375" class="spoke"/>
+    <line x1="300" y1="300" x2="170" y2="225" class="spoke"/>
+
+    <circle cx="300" cy="150" r="26" class="node-dot"/>
+    <text x="300" y="118" text-anchor="middle" class="node-label">Python</text>
+
+    <circle cx="430" cy="225" r="26" class="node-dot"/>
+    <text x="470" y="220" text-anchor="middle" class="node-label">SQL</text>
+
+    <circle cx="430" cy="375" r="26" class="node-dot"/>
+    <text x="475" y="390" text-anchor="middle" class="node-label">Pandas</text>
+
+    <circle cx="300" cy="450" r="26" class="node-dot"/>
+    <text x="300" y="490" text-anchor="middle" class="node-label">Power BI</text>
+
+    <circle cx="170" cy="375" r="26" class="node-dot"/>
+    <text x="125" y="390" text-anchor="middle" class="node-label">Tableau</text>
+
+    <circle cx="170" cy="225" r="26" class="node-dot"/>
+    <text x="130" y="220" text-anchor="middle" class="node-label">NumPy</text>
+  </g>
+
+  <!-- outer ring: 4 nodes, slowly rotating group -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 300 300" to="360 300 300" dur="90s" repeatCount="indefinite"/>
+    <line x1="300" y1="300" x2="477" y2="477" class="spoke"/>
+    <line x1="300" y1="300" x2="123" y2="477" class="spoke"/>
+    <line x1="300" y1="300" x2="123" y2="123" class="spoke"/>
+    <line x1="300" y1="300" x2="477" y2="123" class="spoke"/>
+
+    <circle cx="477" cy="477" r="24" class="node-dot"/>
+    <text x="477" y="482" text-anchor="middle" class="node-label" font-size="11">
+      Scikit
+      <animateTransform attributeName="transform" type="rotate" from="0 477 477" to="-360 477 477" dur="90s" repeatCount="indefinite"/>
+    </text>
+
+    <circle cx="123" cy="477" r="24" class="node-dot"/>
+    <text x="123" y="482" text-anchor="middle" class="node-label" font-size="11">
+      Excel
+      <animateTransform attributeName="transform" type="rotate" from="0 123 477" to="-360 123 477" dur="90s" repeatCount="indefinite"/>
+    </text>
+
+    <circle cx="123" cy="123" r="24" class="node-dot"/>
+    <text x="123" y="128" text-anchor="middle" class="node-label" font-size="11">
+      Git
+      <animateTransform attributeName="transform" type="rotate" from="0 123 123" to="-360 123 123" dur="90s" repeatCount="indefinite"/>
+    </text>
+
+    <circle cx="477" cy="123" r="24" class="node-dot"/>
+    <text x="477" y="128" text-anchor="middle" class="node-label" font-size="11">
+      SQL DB
+      <animateTransform attributeName="transform" type="rotate" from="0 477 123" to="-360 477 123" dur="90s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
