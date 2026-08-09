@@ -46,9 +46,6 @@ status:   shipping small, shipping often
 
 <div align="center">
 
-### Tech stack
-
-<sub>self-assessed, updated periodically — a personal gauge, not a leaderboard.</sub>
 
 <br/>
 
@@ -63,6 +60,84 @@ status:   shipping small, shipping often
 </div>
 
 <sub>⚠️ push <code>skill-levels.svg</code> to <code>assets/</code> in this repo for the image above to render.</sub>
+
+<br/>
+
+---
+
+<br/>
+
+### 🛠️ Tech Stack & Tools
+
+<br/>
+
+<div align="center">
+
+<sub><b>LANGUAGES</b></sub>
+<br/><br/>
+
+![Python](https://img.shields.io/badge/Python-05070d?style=for-the-badge&logo=python&logoColor=00E5FF)
+![SQL](https://img.shields.io/badge/SQL-05070d?style=for-the-badge&logo=postgresql&logoColor=7C3AED)
+
+<br/><br/>
+
+<sub><b>DATA & VISUALIZATION</b></sub>
+<br/><br/>
+
+![Power BI](https://img.shields.io/badge/Power_BI-05070d?style=for-the-badge&logo=powerbi&logoColor=00E5FF)
+![Tableau](https://img.shields.io/badge/Tableau-05070d?style=for-the-badge&logo=tableau&logoColor=7C3AED)
+![Excel](https://img.shields.io/badge/Excel-05070d?style=for-the-badge&logo=microsoftexcel&logoColor=00E5FF)
+![Pandas](https://img.shields.io/badge/Pandas-05070d?style=for-the-badge&logo=pandas&logoColor=7C3AED)
+![NumPy](https://img.shields.io/badge/NumPy-05070d?style=for-the-badge&logo=numpy&logoColor=00E5FF)
+![Plotly](https://img.shields.io/badge/Plotly-05070d?style=for-the-badge&logo=plotly&logoColor=7C3AED)
+![Seaborn](https://img.shields.io/badge/Seaborn-05070d?style=for-the-badge&logo=python&logoColor=00E5FF)
+
+<br/><br/>
+
+<sub><b>MACHINE LEARNING & AI</b></sub>
+<br/><br/>
+
+![Scikit-learn](https://img.shields.io/badge/Scikit_Learn-05070d?style=for-the-badge&logo=scikitlearn&logoColor=7C3AED)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-05070d?style=for-the-badge&logo=tensorflow&logoColor=00E5FF)
+![Deep Learning](https://img.shields.io/badge/Deep_Learning-05070d?style=for-the-badge&logo=pytorch&logoColor=7C3AED)
+![NLP](https://img.shields.io/badge/NLP-05070d?style=for-the-badge&logo=openai&logoColor=00E5FF)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-05070d?style=for-the-badge&logo=anthropic&logoColor=7C3AED)
+
+<br/><br/>
+
+<sub><b>DEV TOOLS & IDEs</b></sub>
+<br/><br/>
+
+![Jupyter](https://img.shields.io/badge/Jupyter-05070d?style=for-the-badge&logo=jupyter&logoColor=00E5FF)
+![VS Code](https://img.shields.io/badge/VS_Code-05070d?style=for-the-badge&logo=visualstudiocode&logoColor=7C3AED)
+
+<br/><br/>
+
+<sub><b>DATABASE</b></sub>
+<br/><br/>
+
+![MySQL](https://img.shields.io/badge/MySQL-05070d?style=for-the-badge&logo=mysql&logoColor=00E5FF)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-05070d?style=for-the-badge&logo=postgresql&logoColor=7C3AED)
+
+<br/><br/>
+
+<sub><b>CLOUD & FULL STACK</b></sub>
+<br/><br/>
+
+![AWS](https://img.shields.io/badge/AWS-05070d?style=for-the-badge&logo=amazonaws&logoColor=00E5FF)
+![HTML5](https://img.shields.io/badge/HTML5-05070d?style=for-the-badge&logo=html5&logoColor=7C3AED)
+![CSS3](https://img.shields.io/badge/CSS3-05070d?style=for-the-badge&logo=css3&logoColor=00E5FF)
+![JavaScript](https://img.shields.io/badge/JavaScript-05070d?style=for-the-badge&logo=javascript&logoColor=7C3AED)
+
+<br/><br/>
+
+<sub><b>VERSION CONTROL</b></sub>
+<br/><br/>
+
+![Git](https://img.shields.io/badge/Git-05070d?style=for-the-badge&logo=git&logoColor=00E5FF)
+![GitHub](https://img.shields.io/badge/GitHub-05070d?style=for-the-badge&logo=github&logoColor=7C3AED)
+
+</div>
 
 <br/>
 
