@@ -47,6 +47,7 @@ status:   shipping small, shipping often
 <div align="center">
 
 ### Tech stack
+
 <sub>self-assessed, updated periodically — a personal gauge, not a leaderboard.</sub>
 
 <br/>
@@ -242,10 +243,14 @@ Logistic regression model estimating diabetes risk from patient health indicator
 
 <table align="center">
 <tr>
-<td align="center" width="25%">🔭<br/><b>Building</b><br/><sub>data projects in Python & SQL</sub></td>
-<td align="center" width="25%">🌱<br/><b>Learning</b><br/><sub>Deep Learning, NLP, Agentic AI</sub></td>
-<td align="center" width="25%">📊<br/><b>Practicing</b><br/><sub>dashboards in Power BI & Tableau</sub></td>
-<td align="center" width="25%">🎓<br/><b>Finishing</b><br/><sub>BCA coursework</sub></td>
+<td align="center" width="33%">🔭<br/><b>Building</b><br/><sub>data projects in Python & SQL</sub></td>
+<td align="center" width="33%">🌱<br/><b>Learning</b><br/><sub>Deep Learning, NLP, Agentic AI</sub></td>
+<td align="center" width="33%">📊<br/><b>Practicing</b><br/><sub>dashboards in Power BI & Tableau</sub></td>
+</tr>
+<tr>
+<td align="center" width="33%">🎓<br/><b>Finishing</b><br/><sub>BCA coursework</sub></td>
+<td align="center" width="33%">🧩<br/><b>Exploring</b><br/><sub>Full Stack Development</sub></td>
+<td align="center" width="33%">☁️<br/><b>Diving into</b><br/><sub>Cloud Computing</sub></td>
 </tr>
 </table>
 
@@ -270,6 +275,5 @@ Logistic regression model estimating diabetes risk from patient health indicator
 <sub>compiled with curiosity, no warnings, one open issue: <code>"figure out what's next"</code></sub>
 
 </div>
-
 
 </div>
