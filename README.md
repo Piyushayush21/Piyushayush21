@@ -1,168 +1,291 @@
-<!-- Header -->
 <div align="center">
 
-```
-██████╗ ██╗██╗   ██╗██╗   ██╗███████╗██╗  ██╗     █████╗ ██╗   ██╗██╗   ██╗███████╗██╗  ██╗
-██╔══██╗██║╚██╗ ██╔╝██║   ██║██╔════╝██║  ██║    ██╔══██╗╚██╗ ██╔╝██║   ██║██╔════╝██║  ██║
-██████╔╝██║ ╚████╔╝ ██║   ██║███████╗███████║    ███████║ ╚████╔╝ ██║   ██║███████╗███████║
-██╔═══╝ ██║  ╚██╔╝  ╚██╗ ██╔╝╚════██║██╔══██║    ██╔══██║  ╚██╔╝  ██║   ██║╚════██║██╔══██║
-██║     ██║   ██║    ╚████╔╝ ███████║██║  ██║    ██║  ██║   ██║   ╚██████╔╝███████║██║  ██║
-╚═╝     ╚═╝   ╚═╝     ╚═══╝  ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝
-```
+<img src="https://raw.githubusercontent.com/Piyushayush21/Piyushayush21/main/assets/hero-banner.svg" width="100%" alt="Piyush Ayush"/>
 
 </div>
 
----
+<br/>
 
-<!-- Profile JSON Block -->
-```json
-Piyush = {
-    "Name"        : "Piyush Ayush",
-    "Location"    : "India 🇮🇳",
-    "Education"   : ["BCA (Pursuing)"],
-    "Role"        : "Aspiring Data Analyst & Data Scientist",
-    "Skills"      : ["Python", "SQL", "Excel", "Power BI", "Tableau"],
-    "Interests"   : ["Data Analysis", "EDA", "Data Visualization",
-                     "Machine Learning", "Deep Learning", "Gen AI", "Statistics"],
-    "Looking_for" : "Entry-level Data Analyst / Data Scientist roles 🚀"
-}
-```
+<table align="center" width="100%">
+<tr>
+<td width="60%" valign="top">
 
----
+### About me
 
-<!-- Skill Bars -->
-### `// skill_levels`
+I turn messy, unglamorous datasets into decisions someone can actually act on —
+SQL for the questions, Python/Pandas for the shape-shifting, Power BI and
+Tableau for the story at the end.
 
-```
-Python   ██████████████████████░░   90%
-SQL      █████████████████████░░░   87%
-Pandas   ██████████████████████░░   89%
-Excel    ████████████████████░░░░   83%
-Power BI █████████████████████░░░   85%
-Tableau  ████████████████████░░░░   82%
-ML       █████████████████████░░░   86%
+**"Aspiring data scientist
+obsessed with turning ambiguous business questions into clean, defensible
+answers."]**
+
+📍 India &nbsp;·&nbsp; 🎓 BCA (in progress) &nbsp;·&nbsp; 🎯 open to Data
+Scientist / Data Analyst roles
+
+</td>
+<td width="40%" valign="top">
+
+```yaml
+role:     [Data Scientist, Data Analyst]
+focus:    data analysis & EDA
+learning: [Deep Learning, NLP, Agentic AI]
+tools:    [Python, SQL, Power BI, Tableau]
+status:   shipping small, shipping often
 ```
 
----
+</td>
+</tr>
+</table>
 
-<div align="center"> 🛠️ Tech Stack & Tools
-
-### 💻 Languages
-
-[![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00b4d8)](https://www.python.org/)
-[![SQL](https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00b4d8)](https://www.postgresql.org/)
-
-### 📊 Data & Visualization Tools
-
-[![Power BI](https://img.shields.io/badge/PowerBI-0d1117?style=for-the-badge&logo=powerbi&logoColor=F2C811)](https://powerbi.microsoft.com/)
-[![Tableau](https://img.shields.io/badge/Tableau-0d1117?style=for-the-badge&logo=tableau&logoColor=00b4d8)](https://www.tableau.com/)
-[![Excel](https://img.shields.io/badge/Excel-0d1117?style=for-the-badge&logo=microsoftexcel&logoColor=217346)](https://www.microsoft.com/en-us/microsoft-365/excel)
-[![Google Sheets](https://img.shields.io/badge/Google_Sheets-0d1117?style=for-the-badge&logo=googlesheets&logoColor=34A853)](https://sheets.google.com/)
-
-### 📚 Libraries & Frameworks
-
-[![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=00b4d8)](https://pandas.pydata.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=00b4d8)](https://numpy.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-0d1117?style=for-the-badge&logo=python&logoColor=00b4d8)](https://matplotlib.org/)
-[![Seaborn](https://img.shields.io/badge/Seaborn-0d1117?style=for-the-badge&logo=python&logoColor=00b4d8)](https://seaborn.pydata.org/)
-[![Plotly](https://img.shields.io/badge/Plotly-0d1117?style=for-the-badge&logo=plotly&logoColor=00b4d8)](https://plotly.com/)
-[![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-0d1117?style=for-the-badge&logo=scikitlearn&logoColor=F7931E)](https://scikit-learn.org/)
-
-### 🧰 Dev Tools & IDEs
-
-[![Jupyter](https://img.shields.io/badge/Jupyter-0d1117?style=for-the-badge&logo=jupyter&logoColor=F37626)](https://jupyter.org/)
-[![VS Code](https://img.shields.io/badge/VSCode-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)](https://code.visualstudio.com/)
-[![Google Colab](https://img.shields.io/badge/Google_Colab-0d1117?style=for-the-badge&logo=googlecolab&logoColor=F9AB00)](https://colab.research.google.com/)
-
-### 🗄️ Database
-
-[![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=for-the-badge&logo=mysql&logoColor=00b4d8)](https://www.mysql.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00b4d8)](https://www.postgresql.org/)
-
-### 🔧 Version Control
-
-[![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032)](https://git-scm.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/Piyushayush21)
+<br/>
 
 ---
 
-## 🔥 GitHub Streak
+<br/>
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Piyushayush21&theme=transparent&ring=00b4d8&fire=0077b6&currStreakLabel=00b4d8&sideLabels=caf0f8&dates=90e0ef&border=00b4d8&border_radius=10)](https://github.com/Piyushayush21)
+### Tech stack
+
+<img src="https://raw.githubusercontent.com/Piyushayush21/Piyushayush21/main/assets/tech-orbit.svg" width="420" alt="tech stack orbit"/>
+
+<sub>core tools orbit the center · slow-rotating outer ring is quietly turning right now — refresh to catch it mid-spin</sub>
 
 </div>
 
+<br/>
+
 ---
 
-## 📊 GitHub Stats
+<br/>
+
+### Skill levels
+
+<sub>self-assessed, updated periodically — a personal gauge, not a leaderboard.</sub>
+
+<br/>
+
+---
+
+<br/>
+
+### 🔗 `// skill_levels`
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Piyushayush21/Piyushayush21/main/assets/skill-levels.svg" alt="skill levels"/>
+</div>
+
+<sub>⚠️ push <code>skill-levels.svg</code> to <code>assets/</code> in this repo for the image above to render.</sub>
+
+<br/>
+
+---
+
+<br/>
+
+### Projects
+
+<table align="center" width="100%">
+<tr>
+<td colspan="3" valign="top">
+
+**📊 Sales Dashboard** — featured
+<br/>
+Interactive dashboard analyzing sales trends, KPIs, and revenue drivers across
+a full simulated retail dataset — built to answer "where is revenue actually
+coming from," not just to look at.
+<br/><br/>
+`Python` `Excel` `Power BI` &nbsp;·&nbsp; **[PROJECT LINK →]**
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**🧹 Data Cleaning & EDA**
+<br/>
+Raw → clean → explored, with real handling of missing data and outliers.
+<br/><br/>
+`Python` `Pandas` `Seaborn`
+<br/>
+**[PROJECT LINK →]**
+
+</td>
+<td width="33%" valign="top">
+
+**🗄️ SQL Data Analysis**
+<br/>
+Query set answering realistic business questions — cohorts, aggregations, reporting views.
+<br/><br/>
+`PostgreSQL` `MySQL`
+<br/>
+**[PROJECT LINK →]**
+
+</td>
+<td width="33%" valign="top">
+
+**📉 Customer Churn Analysis**
+<br/>
+Predictive model flagging at-risk customers, with a Plotly results view.
+<br/><br/>
+`Python` `Scikit-Learn` `Plotly`
+<br/>
+**[PROJECT LINK →]**
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**🚨 Startup Failure Early Warning System**
+<br/>
+Predictive model flagging early risk signals for startup failure from key business indicators.
+<br/><br/>
+`Python` `Scikit-Learn`
+<br/>
+**[SFEWS →](https://github.com/Piyushayush21/PROJECT_BLUEPRINTS/tree/main/SFEWS)**
+
+</td>
+<td width="33%" valign="top">
+
+**🛒 Consumer Electronics Sales Analytics**
+<br/>
+Sales analytics project digging into consumer electronics revenue and performance trends.
+<br/><br/>
+`Python` `Power BI`
+<br/>
+**[Consumer Electronics Sales Analytics →](https://github.com/Piyushayush21/PROJECT_BLUEPRINTS/tree/main/Consumer_Electronics_Sales_Analytics_Project)**
+
+</td>
+<td width="33%" valign="top">
+
+**🚚 Delivery Time Tracking**
+<br/>
+Tracking and analyzing delivery times to surface delays and performance bottlenecks.
+<br/><br/>
+`Python` `Pandas`
+<br/>
+**[Delivery Time Tracking →](https://github.com/Piyushayush21/DELIVERY_TIME_TRACKING)**
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**📧 Spam Detector**
+<br/>
+NLP classifier distinguishing spam from legitimate messages.
+<br/><br/>
+`Python` `NLP` `Scikit-Learn`
+<br/>
+**[Spam Detector →](https://github.com/Piyushayush21/NLP/tree/main/spam_detector)**
+
+</td>
+<td width="33%" valign="top">
+
+**🎥 Face Attendance System**
+<br/>
+Deep learning-based attendance system using facial recognition.
+<br/><br/>
+`Python` `Deep Learning` `OpenCV`
+<br/>
+**[Face Attendance System →](https://github.com/Piyushayush21/DEEP_LEARNING/tree/main/face_attendance_system)**
+
+</td>
+<td width="33%" valign="top">
+
+**🩺 Diabetes Risk Prediction System**
+<br/>
+Logistic regression model estimating diabetes risk from patient health indicators.
+<br/><br/>
+`Python` `Scikit-Learn` `Logistic Regression`
+<br/>
+**[Diabetes Risk Prediction →](https://github.com/Piyushayush21/PROJECT_BLUEPRINTS/tree/main/LR_PROJECT)**
+
+</td>
+</tr>
+</table>
+
+<sub>⚠️ Replace remaining `[PROJECT LINK →]` placeholders with the real repo URLs once pushed.</sub>
+
+<br/>
+
+---
+
+<br/>
+
+### GitHub stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Piyushayush21&show_icons=true&theme=transparent&title_color=00b4d8&icon_color=00b4d8&text_color=caf0f8&border_color=00b4d8&border_radius=10" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piyushayush21&layout=compact&theme=transparent&title_color=00b4d8&text_color=caf0f8&border_color=00b4d8&border_radius=10" height="165"/>
+<img src="https://raw.githubusercontent.com/Piyushayush21/Piyushayush21/main/assets/stats-card.svg" width="100%" alt="live stats"/>
+
+<sub>the card above is generated by a script that runs in this repo daily — see <code>scripts/generate_stats.py</code></sub>
 
 </div>
 
+<br/>
+
+<details>
+<summary><b>expand full GitHub metrics</b></summary>
+
+<br/>
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Piyushayush21&show_icons=true&theme=transparent&hide_border=true&title_color=00E5FF&icon_color=7C3AED&text_color=8b95a8&bg_color=00000000" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piyushayush21&layout=compact&theme=transparent&hide_border=true&title_color=00E5FF&text_color=8b95a8&bg_color=00000000" height="165"/>
+</div>
+
+<div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Piyushayush21&theme=transparent&hide_border=true&ring=00E5FF&fire=7C3AED&currStreakLabel=00E5FF&sideLabels=8b95a8&dates=8b95a8&background=00000000"/>
+</div>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Piyushayush21&bg_color=00000000&color=00E5FF&line=7C3AED&point=ffffff&hide_border=true&area=true" width="100%"/>
+</div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Piyushayush21/Piyushayush21/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</div>
+
+</details>
+
+<br/>
+
 ---
 
-## 🐍 Contribution Snake Animation
+<br/>
+
+### Currently
+
+<table align="center">
+<tr>
+<td align="center" width="25%">🔭<br/><b>Building</b><br/><sub>data projects in Python & SQL</sub></td>
+<td align="center" width="25%">🌱<br/><b>Learning</b><br/><sub>Deep Learning, NLP, Agentic AI</sub></td>
+<td align="center" width="25%">📊<br/><b>Practicing</b><br/><sub>dashboards in Power BI & Tableau</sub></td>
+<td align="center" width="25%">🎓<br/><b>Finishing</b><br/><sub>BCA coursework</sub></td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
 
 <div align="center">
 
-![github-snake](https://raw.githubusercontent.com/Piyushayush21/Piyushayush21/output/github-contribution-grid-snake-dark.svg)
- 
-</div>
+### Get in touch
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-05070d?style=for-the-badge&logo=linkedin&logoColor=00E5FF)](https://www.linkedin.com/in/piyushayush21)
+[![Gmail](https://img.shields.io/badge/Gmail-05070d?style=for-the-badge&logo=gmail&logoColor=7C3AED)](mailto:piyushayush21@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-05070d?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/Piyushayush21)
 
-## 📈 Contribution Activity Graph
+<br/>
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Piyushayush21&bg_color=0d1117&color=00b4d8&line=0077b6&point=90e0ef&area=true&hide_border=false&border_color=00b4d8&radius=10)](https://github.com/Piyushayush21)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05070d,50:7C3AED,100:00E5FF&height=100&section=footer" width="100%"/>
 
----
-
-## 🚀 Projects
-
-| 🗂️ Project | 📝 Description | 🛠️ Tools Used | 🔗 Link |
-|---|---|---|---|
-| 📊 **Sales Dashboard** | Interactive dashboard analyzing sales trends, KPIs & revenue insights | Python · Excel · Power BI | [View →](https://github.com/Piyushayush21) |
-| 🧹 **Data Cleaning & EDA** | End-to-end data cleaning, transformation & exploratory analysis on real dataset | Python · Pandas · Seaborn | [View →](https://github.com/Piyushayush21) |
-| 🗄️ **SQL Data Analysis** | Complex SQL queries for business insights, aggregations & reporting | PostgreSQL · MySQL | [View →](https://github.com/Piyushayush21) |
-| 📉 **Customer Churn Analysis** | Predictive analysis to identify at-risk customers using ML models | Python · Scikit-Learn · Plotly | [View →](https://github.com/Piyushayush21) |
-
-> 💡 **Note:** Replace the `View →` links above with your actual GitHub repository links once you upload your projects!
-
----
-
-## 🎯 Current Goals
-
-- 🔭 Building data analysis projects with Python & SQL
-- 🌱 Learning Advanced Machine Learning & Data Science
-- 📊 Creating Power BI & Tableau Dashboards
-- 🎓 Completing BCA from IGNOU
-- 🤝 Looking for **Data Analyst / Data Scientist** opportunities
-
----
-
-## 🤝 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0077B5)](https://www.linkedin.com/in/piyushayush21)
-[![Gmail](https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=D14836)](mailto:piyushayush21@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/Piyushayush21)
+<sub>compiled with curiosity, no warnings, one open issue: <code>"figure out what's next"</code></sub>
 
 </div>
-
----
-
-<div align="center">
-
-[![Capsule Render](https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,50:0e4d6e,100:0d1117&height=120&section=footer)](https://github.com/Piyushayush21)
-
-**⭐ If you like my profile, consider giving a star to my repositories!**
-
-</div>
-
