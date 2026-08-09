@@ -1,84 +1,81 @@
-<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+<svg width="700" height="700" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.45"/>
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.40"/>
       <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
     <style>
-      .node-label { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 13px; fill: #cdd6e4; }
-      .ring { fill: none; stroke: #ffffff; stroke-opacity: 0.08; stroke-dasharray: 3 6; }
-      .spoke { stroke: #7C3AED; stroke-opacity: 0.18; stroke-width: 1; }
-      .node-dot { fill: #05070d; stroke: #00E5FF; stroke-width: 1.6; }
+      .node-label { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 15px; fill: #cdd6e4; }
+      .ring { fill: none; stroke: #ffffff; stroke-opacity: 0.09; stroke-dasharray: 3 6; }
+      .spoke { stroke: #7C3AED; stroke-opacity: 0.2; stroke-width: 1; }
+      .node-dot { fill: #05070d; stroke: #00E5FF; stroke-width: 1.8; }
     </style>
   </defs>
 
-  <circle cx="300" cy="300" r="250" fill="url(#centerGlow)"/>
-  <circle cx="300" cy="300" r="150" class="ring"/>
-  <circle cx="300" cy="300" r="250" class="ring"/>
+  <circle cx="350" cy="350" r="300" fill="url(#centerGlow)"/>
+  <circle cx="350" cy="350" r="140" class="ring"/>
+  <circle cx="350" cy="350" r="230" class="ring"/>
 
-  <!-- center node -->
-  <circle cx="300" cy="300" r="52" fill="#05070d" stroke="#00E5FF" stroke-width="2"/>
-  <text x="300" y="296" text-anchor="middle" class="node-label" font-size="15" font-weight="700" fill="#00E5FF">STACK</text>
-  <text x="300" y="313" text-anchor="middle" class="node-label" font-size="10" fill="#556072">core.py</text>
+  <circle cx="350" cy="350" r="58" fill="#05070d" stroke="#00E5FF" stroke-width="2"/>
+  <text x="350" y="345" text-anchor="middle" class="node-label" font-size="16" font-weight="700" fill="#00E5FF">STACK</text>
+  <text x="350" y="364" text-anchor="middle" class="node-label" font-size="11" fill="#556072">core.py</text>
 
-  <!-- inner ring: 6 nodes, static -->
   <g>
-    <line x1="300" y1="300" x2="300" y2="150" class="spoke"/>
-    <line x1="300" y1="300" x2="430" y2="225" class="spoke"/>
-    <line x1="300" y1="300" x2="430" y2="375" class="spoke"/>
-    <line x1="300" y1="300" x2="300" y2="450" class="spoke"/>
-    <line x1="300" y1="300" x2="170" y2="375" class="spoke"/>
-    <line x1="300" y1="300" x2="170" y2="225" class="spoke"/>
+    <line x1="350" y1="350" x2="350" y2="210" class="spoke"/>
+    <line x1="350" y1="350" x2="471" y2="280" class="spoke"/>
+    <line x1="350" y1="350" x2="471" y2="420" class="spoke"/>
+    <line x1="350" y1="350" x2="350" y2="490" class="spoke"/>
+    <line x1="350" y1="350" x2="229" y2="420" class="spoke"/>
+    <line x1="350" y1="350" x2="229" y2="280" class="spoke"/>
 
-    <circle cx="300" cy="150" r="26" class="node-dot"/>
-    <text x="300" y="118" text-anchor="middle" class="node-label">Python</text>
+    <circle cx="350" cy="210" r="28" class="node-dot"/>
+    <text x="350" y="172" text-anchor="middle" class="node-label">Python</text>
 
-    <circle cx="430" cy="225" r="26" class="node-dot"/>
-    <text x="470" y="220" text-anchor="middle" class="node-label">SQL</text>
+    <circle cx="471" cy="280" r="28" class="node-dot"/>
+    <text x="530" y="285" text-anchor="middle" class="node-label">SQL</text>
 
-    <circle cx="430" cy="375" r="26" class="node-dot"/>
-    <text x="475" y="390" text-anchor="middle" class="node-label">Pandas</text>
+    <circle cx="471" cy="420" r="28" class="node-dot"/>
+    <text x="534" y="425" text-anchor="middle" class="node-label">Pandas</text>
 
-    <circle cx="300" cy="450" r="26" class="node-dot"/>
-    <text x="300" y="490" text-anchor="middle" class="node-label">Power BI</text>
+    <circle cx="350" cy="490" r="28" class="node-dot"/>
+    <text x="350" y="535" text-anchor="middle" class="node-label">Power BI</text>
 
-    <circle cx="170" cy="375" r="26" class="node-dot"/>
-    <text x="125" y="390" text-anchor="middle" class="node-label">Tableau</text>
+    <circle cx="229" cy="420" r="28" class="node-dot"/>
+    <text x="166" y="425" text-anchor="middle" class="node-label">Tableau</text>
 
-    <circle cx="170" cy="225" r="26" class="node-dot"/>
-    <text x="130" y="220" text-anchor="middle" class="node-label">NumPy</text>
+    <circle cx="229" cy="280" r="28" class="node-dot"/>
+    <text x="170" y="285" text-anchor="middle" class="node-label">NumPy</text>
   </g>
 
-  <!-- outer ring: 4 nodes, slowly rotating group -->
   <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 300 300" to="360 300 300" dur="90s" repeatCount="indefinite"/>
-    <line x1="300" y1="300" x2="477" y2="477" class="spoke"/>
-    <line x1="300" y1="300" x2="123" y2="477" class="spoke"/>
-    <line x1="300" y1="300" x2="123" y2="123" class="spoke"/>
-    <line x1="300" y1="300" x2="477" y2="123" class="spoke"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 350 350" to="360 350 350" dur="90s" repeatCount="indefinite"/>
+    <line x1="350" y1="350" x2="513" y2="513" class="spoke"/>
+    <line x1="350" y1="350" x2="187" y2="513" class="spoke"/>
+    <line x1="350" y1="350" x2="187" y2="187" class="spoke"/>
+    <line x1="350" y1="350" x2="513" y2="187" class="spoke"/>
 
-    <circle cx="477" cy="477" r="24" class="node-dot"/>
-    <text x="477" y="482" text-anchor="middle" class="node-label" font-size="11">
+    <circle cx="513" cy="513" r="26" class="node-dot"/>
+    <text x="513" y="518" text-anchor="middle" class="node-label" font-size="12">
       Scikit
-      <animateTransform attributeName="transform" type="rotate" from="0 477 477" to="-360 477 477" dur="90s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 513 513" to="-360 513 513" dur="90s" repeatCount="indefinite"/>
     </text>
 
-    <circle cx="123" cy="477" r="24" class="node-dot"/>
-    <text x="123" y="482" text-anchor="middle" class="node-label" font-size="11">
+    <circle cx="187" cy="513" r="26" class="node-dot"/>
+    <text x="187" y="518" text-anchor="middle" class="node-label" font-size="12">
       Excel
-      <animateTransform attributeName="transform" type="rotate" from="0 123 477" to="-360 123 477" dur="90s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 187 513" to="-360 187 513" dur="90s" repeatCount="indefinite"/>
     </text>
 
-    <circle cx="123" cy="123" r="24" class="node-dot"/>
-    <text x="123" y="128" text-anchor="middle" class="node-label" font-size="11">
+    <circle cx="187" cy="187" r="26" class="node-dot"/>
+    <text x="187" y="192" text-anchor="middle" class="node-label" font-size="12">
       Git
-      <animateTransform attributeName="transform" type="rotate" from="0 123 123" to="-360 123 123" dur="90s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 187 187" to="-360 187 187" dur="90s" repeatCount="indefinite"/>
     </text>
 
-    <circle cx="477" cy="123" r="24" class="node-dot"/>
-    <text x="477" y="128" text-anchor="middle" class="node-label" font-size="11">
+    <circle cx="513" cy="187" r="26" class="node-dot"/>
+    <text x="513" y="192" text-anchor="middle" class="node-label" font-size="12">
       SQL DB
-      <animateTransform attributeName="transform" type="rotate" from="0 477 123" to="-360 477 123" dur="90s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 513 187" to="-360 513 187" dur="90s" repeatCount="indefinite"/>
     </text>
   </g>
 </svg>
