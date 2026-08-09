@@ -59,7 +59,6 @@ status:   shipping small, shipping often
 <img src="https://raw.githubusercontent.com/Piyushayush21/Piyushayush21/main/assets/skill-levels.svg" alt="skill levels"/>
 </div>
 
-<sub>⚠️ push <code>skill-levels.svg</code> to <code>assets/</code> in this repo for the image above to render.</sub>
 
 <br/>
 
@@ -268,8 +267,7 @@ Logistic regression model estimating diabetes risk from patient health indicator
 </tr>
 </table>
 
-<sub>⚠️ Replace remaining `[PROJECT LINK →]` placeholders with the real repo URLs once pushed.</sub>
-
+ ---------
 <br/>
 
 ---
@@ -288,8 +286,7 @@ Logistic regression model estimating diabetes risk from patient health indicator
 <div align="center">
 <img src="https://raw.githubusercontent.com/Piyushayush21/Piyushayush21/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake contribution graph"/>
 </div>
-
-<sub>⚠️ the snake above needs <code>.github/workflows/snake.yml</code> added to this repo — it generates the SVG onto an <code>output</code> branch automatically. See setup note below.</sub>
+##
 
 <br/>
 
